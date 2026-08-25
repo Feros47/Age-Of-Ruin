@@ -1,0 +1,35 @@
+AGE OF RUIN v3.1 - IMPLEMENTATION AUDIT
+Target: Minecraft Java 26.2
+
+BUILD COUNTS
+- Datapack files: 1111
+- Functions: 771
+- Advancements: 233
+- Loot tables: 31
+- Resource-pack files: 106
+- Player guide: 30 A4 pages
+
+INVINCIBLE GENE COVERAGE
+- Mutation chance: exactly 1/400 (0.25%) per direct-birth bred gene-pool offspring.
+- Independent roll: parental genes do not alter the Invincible probability.
+- Inheritance: none; no 55% or 85% parent inheritance path exists for Invincible.
+- Sterility: adult Invincible animals are kept in permanent breeding cooldown and InLove is cleared.
+- Baby growth: mutation does not force a newborn to adulthood; sterility begins when Age reaches the adult range.
+- Survival: max health and absorption are raised and restored every tick, with Resistance IV and Fire Resistance refreshed.
+- Hit harvesting: player_hurt_entity advancement resolves the struck Invincible animal and runs a species drop table.
+- Species coverage: 26 gene-pool species have Invincible hit-resource packages.
+- Productive-gene synergy: Gourmet, Golden, Arcane, Lucky and Alchemist add physical bonus drops.
+- Visual phenotype: Totem-of-Undying particles.
+- Daily chat report: includes Invincible 0.25% mutation / sterile status.
+
+STATIC VALIDATION
+- 407 JSON / metadata files parsed successfully.
+- 771 ruin functions found.
+- 1900 internal ruin:function references checked; 0 unresolved.
+- 26/26 Invincible species loot tables present.
+- Player PDF preflight: openable, 30 pages, A4, unencrypted.
+- Updated genetics pages rendered and visually inspected.
+- PDF before/after render comparison generated.
+
+RUNTIME LIMITATION
+As with v3.0, this build has not been boot-tested against an actual Minecraft Java 26.2 dedicated server inside this environment. Static validation is strong, but use a copied test world before replacing a permanent server datapack.

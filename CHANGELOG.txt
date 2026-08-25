@@ -1,0 +1,13 @@
+AGE OF RUIN v3.1 - INVINCIBLE GENE UPDATE
+
+- Adds Invincible as a tenth genetic trait, but deliberately NOT a normal heritable gene.
+- Every direct-birth bred gene-pool offspring gets an independent 0.25% (1 in 400) Invincible mutation roll.
+- Invincible is never inherited from either parent, even if a parent already carries the mutation.
+- Invincible animals remain normal babies while growing, then become permanently sterile as adults.
+- Invincible animals receive 1024 native health, 1024 absorption capacity, Resistance IV and continuous health/absorption restoration.
+- Ordinary survival damage therefore cannot kill them; admin /kill-style commands remain outside the gameplay mechanic.
+- Successful player hits trigger a renewable species-specific resource drop without killing the animal.
+- Productive genes (Gourmet, Golden, Arcane, Lucky, Alchemist) add extra hit rewards.
+- Totem particles visually identify Invincible animals.
+- The daily Age of Ruin message now reports the 0.25% Invincible mutation rate and sterility rule.
+- The player guide genetics section has been updated in-place; it remains gameplay-only and contains no commands.
